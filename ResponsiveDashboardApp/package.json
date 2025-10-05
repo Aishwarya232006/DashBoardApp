@@ -1,0 +1,1 @@
+{"name":"ResponsiveDashboardApp","version":"0.0.1","private":true,"scripts":{"start":"node node_modules/react-native/local-cli/cli.js start"},"dependencies":{"react-native":"0.81.4","react-native-linear-gradient":"^2.8.3","react-native-orientation-locker":"^1.7.0","react-native-vector-icons":"^10.3.0"}}
