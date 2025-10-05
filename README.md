@@ -1,7 +1,8 @@
+
 # Responsive Dashboard App - Lab 4
 ## Student Information
-- **Name:** [Your Full Name]
-- **Student ID:** [Your ID]
+- **Name:** Aishwarya Chhablani
+- **Student ID:** N01711300
 - **Course:** CPAN 213
 - **Lab:** Lab 4 - Responsive Layouts with Flexbox
 - **Date:** September 23, 2025
@@ -26,4 +27,25 @@ responsive design patterns, and platform-specific styling in React Native.
 3. Install iOS pods (macOS only): `cd ios && pod install`
 4. Run on Android: `npx react-native run-android`
 5. Run on iOS: `npx react-native run-ios`
-## Project Structure
+## Project Structure:
+ContactManagerApp/
+│
+├── android/                    # Native Android project files
+├── ios/                        # Native iOS project files
+│
+├── src/                        # Your app’s main source code
+│   ├── components/             # Reusable components (buttons, inputs, etc.)
+│   ├── screens/                # All screens (HomeScreen, AddContactScreen, etc.)
+│   ├── navigation/             # Stack or Tab navigation setup
+│   ├── assets/                 # Images, fonts, icons
+│   ├── utils/                  # Helper functions or constants
+│   ├── App.tsx (or App.js)     # Main app entry (usually imports navigation)
+│
+├── node_modules/               # Auto-generated folder (you pasted this)
+│
+├── package.json                # Lists dependencies and scripts
+├── babel.config.js             # Babel configuration
+├── metro.config.js             # Metro bundler configuration
+├── tsconfig.json               # TypeScript configuration (if using TS)
+├── app.json                    # App configuration
+└── README.md                   # Project documentation
